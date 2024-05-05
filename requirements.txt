@@ -1,0 +1,4 @@
+virtualenv -p /usr/bin/python2.7 venv_gnn
+source venv_gnn/bin/activate
+pip install TensorFlow 1.13
+pip install scikit-learn==0.20.2
